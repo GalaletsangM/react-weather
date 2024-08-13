@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css";
 import WeatherForecastDay from "./WeatherForecastDay";
-import { cleanup } from "@testing-library/react";
 
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
