@@ -1,12 +1,17 @@
 .weather {
   border: 1px solid #dadde1;
   font-family: arial, sans-seriff;
-  color: rgb(135,135, 135);
+  color: white;
   padding: 16px;
   margin: 30px auto;
   border-radius: 5px;
   max-width: 600px;
 }
+@media screen and (max-width: 600px){
+  input[type=submit],.form-control
+{
+  padding: 6px 0px 6px 0px;
+}}
 .weather h1 {
   font-size: 28px;
   font-weight: 100;
@@ -15,7 +20,7 @@
 }
 .weather ul {
   list-style-type: none;
-  margin-bottom: 25px;
+  margin: 0px;
   padding: 0;
 }
 .weather li {

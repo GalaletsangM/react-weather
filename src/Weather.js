@@ -42,7 +42,7 @@ export default function Weather(props) {
   if (ready) {
     return (
       <div className="weather">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="flex-column">
           <div className="row">
             <div className="col-9">
               <input
